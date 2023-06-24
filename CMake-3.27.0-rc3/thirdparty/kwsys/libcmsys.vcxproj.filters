@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\cmsys\Base64.c">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\CommandLineArguments.cxx">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\Directory.cxx">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\DynamicLoader.cxx">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\EncodingC.c">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\EncodingCXX.cxx">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\FStream.cxx">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\Glob.cxx">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\MD5.c">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\ProcessWin32.c">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\RegularExpression.cxx">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\Status.cxx">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\String.c">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\System.c">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\SystemInformation.cxx">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\SystemTools.cxx">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\Terminal.c">
+      <Filter>src\cmsys</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\cmsys\Base64.h">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\CommandLineArguments.hxx">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\Configure.h">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\Configure.hxx">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\ConsoleBuf.hxx">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\Directory.hxx">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\DynamicLoader.hxx">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\Encoding.h">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\Encoding.hxx">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\FStream.hxx">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\Glob.hxx">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\MD5.h">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\Process.h">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\RegularExpression.hxx">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\Status.hxx">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\System.h">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\SystemInformation.hxx">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\SystemTools.hxx">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\Terminal.h">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\kwsysPrivate.h">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmsys\_String.h">
+      <Filter>include\cmsys</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{9A40E542-6B2B-370C-BEE2-4072949097F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{96A10001-ED0E-3521-985A-D2555170537F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\cmsys">
+      <UniqueIdentifier>{57ee77c7-3e04-4cce-a8cb-7cda34fd7fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cmsys">
+      <UniqueIdentifier>{3ddfd1f2-3bcf-41f2-9292-b0d2ee0c16c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

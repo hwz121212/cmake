@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="lib\nghttp2_buf.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_callbacks.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_debug.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_extpri.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_frame.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_hd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_hd_huffman.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_hd_huffman_data.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_helper.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_http.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_map.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_mem.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_npn.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_option.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_outbound_item.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_pq.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_priority_spec.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_queue.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_rcbuf.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_session.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_stream.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_submit.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nghttp2_version.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{96A10001-ED0E-3521-985A-D2555170537F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

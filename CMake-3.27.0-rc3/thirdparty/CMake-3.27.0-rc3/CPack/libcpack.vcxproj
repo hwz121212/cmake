@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CCE017D3-672C-3AB5-86AE-D4BC84FF5884}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libcpack</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include;include\IFW;include\WiX;$(SolutionDir)thirdparty;$(SolutionDir)thirdparty\std;$(SolutionDir)thirdparty\kwsys\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CMake\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CTest\include</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CURL_STATICLIB;LIBARCHIVE_STATIC</PreprocessorDefinitions>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include;include\IFW;include\WiX;$(SolutionDir)thirdparty;$(SolutionDir)thirdparty\std;$(SolutionDir)thirdparty\kwsys\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CMake\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CTest\include</AdditionalIncludeDirectories>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CURL_STATICLIB;LIBARCHIVE_STATIC</PreprocessorDefinitions>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\cmCPackArchiveGenerator.h" />
+    <ClInclude Include="include\cmCPackBundleGenerator.h" />
+    <ClInclude Include="include\cmCPackComponentGroup.h" />
+    <ClInclude Include="include\cmCPackConfigure.h" />
+    <ClInclude Include="include\cmCPackCygwinBinaryGenerator.h" />
+    <ClInclude Include="include\cmCPackCygwinSourceGenerator.h" />
+    <ClInclude Include="include\cmCPackDebGenerator.h" />
+    <ClInclude Include="include\cmCPackDragNDropGenerator.h" />
+    <ClInclude Include="include\cmCPackExternalGenerator.h" />
+    <ClInclude Include="include\cmCPackFreeBSDGenerator.h" />
+    <ClInclude Include="include\cmCPackGenerator.h" />
+    <ClInclude Include="include\cmCPackGeneratorFactory.h" />
+    <ClInclude Include="include\cmCPackInnoSetupGenerator.h" />
+    <ClInclude Include="include\cmCPackLog.h" />
+    <ClInclude Include="include\cmCPackNSISGenerator.h" />
+    <ClInclude Include="include\cmCPackNuGetGenerator.h" />
+    <ClInclude Include="include\cmCPackPKGGenerator.h" />
+    <ClInclude Include="include\cmCPackProductBuildGenerator.h" />
+    <ClInclude Include="include\cmCPackRPMGenerator.h" />
+    <ClInclude Include="include\cmCPackSTGZGenerator.h" />
+    <ClInclude Include="include\IFW\cmCPackIFWCommon.h" />
+    <ClInclude Include="include\IFW\cmCPackIFWGenerator.h" />
+    <ClInclude Include="include\IFW\cmCPackIFWInstaller.h" />
+    <ClInclude Include="include\IFW\cmCPackIFWPackage.h" />
+    <ClInclude Include="include\IFW\cmCPackIFWRepository.h" />
+    <ClInclude Include="include\WiX\cmCMakeToWixPath.h" />
+    <ClInclude Include="include\WiX\cmCPackWIXGenerator.h" />
+    <ClInclude Include="include\WiX\cmWIXAccessControlList.h" />
+    <ClInclude Include="include\WiX\cmWIXDirectoriesSourceWriter.h" />
+    <ClInclude Include="include\WiX\cmWIXFeaturesSourceWriter.h" />
+    <ClInclude Include="include\WiX\cmWIXFilesSourceWriter.h" />
+    <ClInclude Include="include\WiX\cmWIXPatch.h" />
+    <ClInclude Include="include\WiX\cmWIXPatchParser.h" />
+    <ClInclude Include="include\WiX\cmWIXRichTextFormatWriter.h" />
+    <ClInclude Include="include\WiX\cmWIXShortcut.h" />
+    <ClInclude Include="include\WiX\cmWIXSourceWriter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cmCPackArchiveGenerator.cxx" />
+    <ClCompile Include="src\cmCPackComponentGroup.cxx" />
+    <ClCompile Include="src\cmCPackDebGenerator.cxx" />
+    <ClCompile Include="src\cmCPackExternalGenerator.cxx" />
+    <ClCompile Include="src\cmCPackGenerator.cxx" />
+    <ClCompile Include="src\cmCPackGeneratorFactory.cxx" />
+    <ClCompile Include="src\cmCPackInnoSetupGenerator.cxx" />
+    <ClCompile Include="src\cmCPackLog.cxx" />
+    <ClCompile Include="src\cmCPackNSISGenerator.cxx" />
+    <ClCompile Include="src\cmCPackNuGetGenerator.cxx" />
+    <ClCompile Include="src\cmCPackPKGGenerator.cxx" />
+    <ClCompile Include="src\cmCPackProductBuildGenerator.cxx" />
+    <ClCompile Include="src\cmCPackRPMGenerator.cxx" />
+    <ClCompile Include="src\cmCPackSTGZGenerator.cxx" />
+    <ClCompile Include="src\IFW\cmCPackIFWCommon.cxx" />
+    <ClCompile Include="src\IFW\cmCPackIFWGenerator.cxx" />
+    <ClCompile Include="src\IFW\cmCPackIFWInstaller.cxx" />
+    <ClCompile Include="src\IFW\cmCPackIFWPackage.cxx" />
+    <ClCompile Include="src\IFW\cmCPackIFWRepository.cxx" />
+    <ClCompile Include="src\WiX\cmCMakeToWixPath.cxx" />
+    <ClCompile Include="src\WiX\cmCPackWIXGenerator.cxx" />
+    <ClCompile Include="src\WiX\cmWIXAccessControlList.cxx" />
+    <ClCompile Include="src\WiX\cmWIXDirectoriesSourceWriter.cxx" />
+    <ClCompile Include="src\WiX\cmWIXFeaturesSourceWriter.cxx" />
+    <ClCompile Include="src\WiX\cmWIXFilesSourceWriter.cxx" />
+    <ClCompile Include="src\WiX\cmWIXPatch.cxx" />
+    <ClCompile Include="src\WiX\cmWIXPatchParser.cxx" />
+    <ClCompile Include="src\WiX\cmWIXRichTextFormatWriter.cxx" />
+    <ClCompile Include="src\WiX\cmWIXShortcut.cxx" />
+    <ClCompile Include="src\WiX\cmWIXSourceWriter.cxx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

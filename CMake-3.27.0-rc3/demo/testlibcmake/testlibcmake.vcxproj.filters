@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{96A10001-ED0E-3521-985A-D2555170537F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{5d75cf76-23ce-4f0c-ad49-964ce958fe59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CMakeLibTests.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testArgumentParser.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testCMExtAlgorithm.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testCMExtEnumSet.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testCMExtMemory.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testCTestBinPacker.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testCTestResourceAllocator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testCTestResourceGroups.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testCTestResourceSpec.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testDebuggerAdapter.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testDebuggerAdapterPipe.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testDebuggerBreakpointManager.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testDebuggerVariables.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testDebuggerVariablesHelper.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testDebuggerVariablesManager.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testFindPackageCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testGccDepfileReader.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testGeneratedFileStream.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testJSONHelpers.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testList.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testOptional.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testRange.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testRST.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testString.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testStringAlgorithms.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testSystemTools.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testUTF8.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testUVProcessChain.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testUVRAII.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testUVStreambuf.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testVisualStudioSlnParser.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testXMLParser.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="testXMLSafe.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="testCommon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="testDebugger.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="testVisualStudioSlnParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="testXMLParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

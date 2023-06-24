@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DBDDC94E-658F-45B2-A4F8-EC268F99EDB7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>testlibcmake</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty;$(SolutionDir)thirdparty\std;$(SolutionDir)thirdparty\kwsys\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CMake\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CTest\include</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CURL_STATICLIB;LIBARCHIVE_STATIC</PreprocessorDefinitions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CURL_STATICLIB;LIBARCHIVE_STATIC</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Tests\CMakeLib;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Source;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Source\CTest;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Source\LexerParser;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Utilities\std;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Utilities;</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Tests\CMakeLib;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Source;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Source\CTest;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Source\LexerParser;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Utilities\std;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Utilities;</AdditionalIncludeDirectories>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libcmarchive.lib;libcmbzip2.lib;libcmcppdap.lib;libcmcurl.lib;libcmexpat.lib;libcmjsoncpp.lib;libcmlzma.lib;libcmnghttp2.lib;libcmrhash.lib;libcmstd.lib;libcmsys.lib;libcmuv.lib;libcmzlib.lib;libcmzstd.lib;libcmake.lib;libcpack.lib;libctest.lib;libLexerParser.lib;Advapi32.lib;Crypt32.lib;Ws2_32.lib;Shell32.lib;Dbghelp.lib;Kernel32.lib;Psapi.lib;Iphlpapi.lib;Userenv.lib;User32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 -stack:10000000</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty;$(SolutionDir)thirdparty\std;$(SolutionDir)thirdparty\kwsys\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CMake\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CTest\include</AdditionalIncludeDirectories>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CURL_STATICLIB;LIBARCHIVE_STATIC</PreprocessorDefinitions>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CURL_STATICLIB;LIBARCHIVE_STATIC</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Tests\CMakeLib;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Source;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Source\CTest;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Source\LexerParser;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Utilities\std;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Utilities;</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Tests\CMakeLib;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Source;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Source\CTest;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Source\LexerParser;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Utilities\std;E:\hanwenzhi_code\cmake\backup\CMake-3.27.0-rc3\Utilities;</AdditionalIncludeDirectories>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libcmarchive.lib;libcmbzip2.lib;libcmcppdap.lib;libcmcurl.lib;libcmexpat.lib;libcmjsoncpp.lib;libcmlzma.lib;libcmnghttp2.lib;libcmrhash.lib;libcmstd.lib;libcmsys.lib;libcmuv.lib;libcmzlib.lib;libcmzstd.lib;libcmake.lib;libcpack.lib;libctest.lib;libLexerParser.lib;Advapi32.lib;Crypt32.lib;Ws2_32.lib;Shell32.lib;Dbghelp.lib;Kernel32.lib;Psapi.lib;Iphlpapi.lib;Userenv.lib;User32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 -stack:10000000</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="testCommon.h" />
+    <ClInclude Include="testDebugger.h" />
+    <ClInclude Include="testVisualStudioSlnParser.h" />
+    <ClInclude Include="testXMLParser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CMakeLibTests.cxx" />
+    <ClCompile Include="testArgumentParser.cxx" />
+    <ClCompile Include="testCMExtAlgorithm.cxx" />
+    <ClCompile Include="testCMExtEnumSet.cxx" />
+    <ClCompile Include="testCMExtMemory.cxx" />
+    <ClCompile Include="testCTestBinPacker.cxx" />
+    <ClCompile Include="testCTestResourceAllocator.cxx" />
+    <ClCompile Include="testCTestResourceGroups.cxx" />
+    <ClCompile Include="testCTestResourceSpec.cxx" />
+    <ClCompile Include="testDebuggerAdapter.cxx" />
+    <ClCompile Include="testDebuggerAdapterPipe.cxx" />
+    <ClCompile Include="testDebuggerBreakpointManager.cxx" />
+    <ClCompile Include="testDebuggerVariables.cxx" />
+    <ClCompile Include="testDebuggerVariablesHelper.cxx" />
+    <ClCompile Include="testDebuggerVariablesManager.cxx" />
+    <ClCompile Include="testFindPackageCommand.cxx" />
+    <ClCompile Include="testGccDepfileReader.cxx" />
+    <ClCompile Include="testGeneratedFileStream.cxx" />
+    <ClCompile Include="testJSONHelpers.cxx" />
+    <ClCompile Include="testList.cxx" />
+    <ClCompile Include="testOptional.cxx" />
+    <ClCompile Include="testRange.cxx" />
+    <ClCompile Include="testRST.cxx" />
+    <ClCompile Include="testString.cxx" />
+    <ClCompile Include="testStringAlgorithms.cxx" />
+    <ClCompile Include="testSystemTools.cxx" />
+    <ClCompile Include="testUTF8.cxx" />
+    <ClCompile Include="testUVProcessChain.cxx" />
+    <ClCompile Include="testUVRAII.cxx" />
+    <ClCompile Include="testUVStreambuf.cxx" />
+    <ClCompile Include="testVisualStudioSlnParser.cxx" />
+    <ClCompile Include="testXMLParser.cxx" />
+    <ClCompile Include="testXMLSafe.cxx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

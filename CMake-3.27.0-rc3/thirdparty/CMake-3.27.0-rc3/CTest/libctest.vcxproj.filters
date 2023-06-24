@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{9A40E542-6B2B-370C-BEE2-4072949097F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{96A10001-ED0E-3521-985A-D2555170537F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\cmCTestBinPacker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestBuildAndTestHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestBuildCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestBuildHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestBZR.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestConfigureCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestConfigureHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestCoverageCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestCoverageHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestCurl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestCVS.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestEmptyBinaryDirectoryCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestGenericHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestGIT.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestGlobalVC.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestHandlerCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestHG.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestLaunch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestLaunchReporter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestMemCheckCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestMemCheckHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestMultiProcessHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestP4.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestReadCustomFilesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestResourceAllocator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestResourceGroupsLexer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestResourceGroupsLexerHelper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestResourceSpec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestRunScriptCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestRunTest.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestScriptHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestSleepCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestStartCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestSubmitCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestSubmitHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestSVN.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestTestCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestTestHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestTestMeasurementXMLParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestTypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestUpdateCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestUpdateHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestUploadCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestUploadHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTestVC.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmParseBlanketJSCoverage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmParseCacheCoverage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmParseCoberturaCoverage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmParseDelphiCoverage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmParseGTMCoverage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmParseJacocoCoverage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmParseMumpsCoverage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmParsePHPCoverage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmProcess.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCTest.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cmCTest.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestBinPacker.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestBuildAndTestHandler.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestBuildCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestBuildHandler.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestBZR.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestConfigureCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestConfigureHandler.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestCoverageCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestCoverageHandler.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestCurl.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestCVS.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestEmptyBinaryDirectoryCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestGenericHandler.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestGIT.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestGlobalVC.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestHandlerCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestHG.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestLaunch.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestLaunchReporter.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestMemCheckCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestMemCheckHandler.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestMultiProcessHandler.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestP4.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestReadCustomFilesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestResourceAllocator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestResourceGroupsLexer.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestResourceGroupsLexerHelper.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestResourceSpec.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestRunScriptCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestRunTest.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestScriptHandler.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestSleepCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestStartCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestSubmitCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestSubmitHandler.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestSVN.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestTestCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestTestHandler.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestTestMeasurementXMLParser.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestUpdateCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestUpdateHandler.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestUploadCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestUploadHandler.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCTestVC.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmParseBlanketJSCoverage.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmParseCacheCoverage.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmParseCoberturaCoverage.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmParseDelphiCoverage.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmParseGTMCoverage.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmParseJacocoCoverage.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmParseMumpsCoverage.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmParsePHPCoverage.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmProcess.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\cmCTestResourceGroupsLexer.in.l">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>

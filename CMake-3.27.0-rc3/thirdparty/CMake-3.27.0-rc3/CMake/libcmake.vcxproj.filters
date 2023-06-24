@@ -1,0 +1,2339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{9A40E542-6B2B-370C-BEE2-4072949097F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{6fc96b9e-19f3-4d93-b264-be1df337e0af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\bindexplib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cm_codecvt.hxx">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cm_sys_stat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cm_utf8.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmAddCompileDefinitionsCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmAddCompileOptionsCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmAddCustomCommandCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmAddCustomTargetCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmAddDefinitionsCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmAddDependenciesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmAddExecutableCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmAddLibraryCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmAddLinkOptionsCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmAddSubDirectoryCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmAddTestCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmAffinity.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmake.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmAlgorithms.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmArchiveWrite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmArgumentParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmArgumentParserTypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmAuxSourceDirectoryCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBase32.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBinUtilsLinker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBinUtilsLinuxELFGetRuntimeDependenciesTool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBinUtilsLinuxELFLinker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBinUtilsLinuxELFObjdumpGetRuntimeDependenciesTool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBinUtilsMacOSMachOGetRuntimeDependenciesTool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBinUtilsMacOSMachOLinker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBinUtilsMacOSMachOOToolGetRuntimeDependenciesTool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBinUtilsWindowsPEDumpbinGetRuntimeDependenciesTool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBinUtilsWindowsPEGetRuntimeDependenciesTool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBinUtilsWindowsPELinker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBinUtilsWindowsPEObjdumpGetRuntimeDependenciesTool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBlockCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBreakCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBuildCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBuildNameCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmBuildOptions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCacheManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCallVisualStudioMacro.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCLocaleEnvironmentScope.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCMakeHostSystemInformationCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCMakeLanguageCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCMakeMinimumRequired.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCMakePath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCMakePathCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCMakePolicyCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCMakePresetErrors.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCMakePresetsGraph.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCMakePresetsGraphInternal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmcmd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCommandArgumentParserHelper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCommandLineArgument.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCommands.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCommonTargetGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmComputeComponentGraph.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmComputeLinkDepends.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmComputeLinkInformation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmComputeTargetDepends.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmConditionEvaluator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmConfigureFileCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmConfigureLog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmConsoleBuf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmConstStack.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmContinueCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCoreTryCompile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackPropertiesGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPluginAPI.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCreateTestSourceList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCryptoHash.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCurl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCustomCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCustomCommandGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCustomCommandLines.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCustomCommandTypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCxxModuleMapper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDebuggerAdapter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDebuggerBreakpointManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDebuggerExceptionManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDebuggerPipeConnection.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDebuggerProtocol.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDebuggerSourceBreakpoint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDebuggerStackFrame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDebuggerThread.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDebuggerThreadManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDebuggerVariables.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDebuggerVariablesHelper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDebuggerVariablesManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDefinePropertyCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDefinitions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDependencyProvider.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDepends.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDependsC.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDependsCompiler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDependsFortran.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDependsJava.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDependsJavaParserHelper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDocumentation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDocumentationEntry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDocumentationFormatter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDocumentationSection.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDuration.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDynamicLoader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmDyndepCollation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmELF.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmEnableLanguageCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmEnableTestingCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmEvaluatedTargetProperty.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExecProgramCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExecuteProcessCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExecutionStatus.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExpandedCommandArgument.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExperimental.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExportBuildAndroidMKGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExportBuildFileGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExportCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExportFileGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExportInstallAndroidMKGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExportInstallFileGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExportLibraryDependenciesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExportSet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExportTryCompileFileGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExprParserHelper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExternalMakefileProjectGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExtraCodeBlocksGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExtraCodeLiteGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExtraEclipseCDT4Generator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExtraKateGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmExtraSublimeTextGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileAPI.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileAPICache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileAPICMakeFiles.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileAPICodemodel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileAPICommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileAPIConfigureLog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileAPIToolchains.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileCopier.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileInstaller.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileLock.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileLockPool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileLockResult.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFilePathChecksum.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileSet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileTime.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileTimeCache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFileTimes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFindBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFindCommon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFindFileCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFindLibraryCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFindPackageCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFindPathCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFindProgramCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFLTKWrapUICommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmForEachCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFortranParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFSPermissions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFunctionBlocker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmFunctionCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGccDepfileLexerHelper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGccDepfileReader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGccDepfileReaderTypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGeneratedFileStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGeneratorExpression.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGeneratorExpressionContext.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGeneratorExpressionDAGChecker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGeneratorExpressionEvaluationFile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGeneratorExpressionEvaluator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGeneratorExpressionLexer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGeneratorExpressionNode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGeneratorExpressionParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGeneratorTarget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGetCMakePropertyCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGetDirectoryPropertyCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGetFilenameComponentCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGetPipes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGetPropertyCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGetSourceFilePropertyCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGetTargetPropertyCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGetTestPropertyCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGhsMultiGpj.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGhsMultiTargetGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalBorlandMakefileGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalCommonGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalGeneratorFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalGhsMultiGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalJOMMakefileGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalMinGWMakefileGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalMSYSMakefileGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalNinjaGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalNMakeMakefileGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalUnixMakefileGenerator3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalVisualStudio7Generator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalVisualStudio8Generator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalVisualStudio9Generator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalVisualStudio10Generator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalVisualStudio11Generator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalVisualStudio12Generator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalVisualStudio14Generator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalVisualStudio71Generator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalVisualStudioGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalVisualStudioVersionedGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalWatcomWMakeGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobalXCodeGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGlobVerificationManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGraphAdjacencyList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmGraphVizWriter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmHexFileConverter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmIDEFlagTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmIDEOptions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmIfCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmIncludeCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmIncludeDirectoryCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmIncludeExternalMSProjectCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmIncludeGuardCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmIncludeRegularExpressionCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallCommandArguments.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallCxxModuleBmiGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallDirectoryGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstalledFile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallExportGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallFilesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallFileSetGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallFilesGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallGetRuntimeDependenciesGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallImportedRuntimeArtifactsGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallMode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallProgramsCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallRuntimeDependencySet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallRuntimeDependencySetGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallScriptGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallSubdirectoryGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallTargetGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallTargetsCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmInstallType.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmJSONHelpers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmJSONState.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLDConfigLDConfigTool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLDConfigTool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLinkDirectoriesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLinkedTree.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLinkItem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLinkItemGraphVisitor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLinkLibrariesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLinkLineComputer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLinkLineDeviceComputer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmListCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmListFileCache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmListFileLexer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLoadCacheCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLoadCommandCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLocalCommonGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLocale.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLocalGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLocalGhsMultiGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLocalNinjaGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLocalUnixMakefileGenerator3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLocalVisualStudio7Generator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLocalVisualStudio10Generator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLocalVisualStudioGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmLocalXCodeGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMachO.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMacroCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMakeDirectoryCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMakefile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMakefileExecutableTargetGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMakefileLibraryTargetGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMakefileProfilingData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMakefileTargetGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMakefileUtilityTargetGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMarkAsAdvancedCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMathCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMessageCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMessageMetadata.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMessageType.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMessenger.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmMSVC60LinkLineComputer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmNewLineStyle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmNinjaLinkLineComputer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmNinjaLinkLineDeviceComputer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmNinjaNormalTargetGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmNinjaTargetGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmNinjaTypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmNinjaUtilityTargetGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmOptionCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmOrderDirectories.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmOSXBundleGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmOutputConverter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmOutputRequiredFilesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmParseArgumentsCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmPathLabel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmPlaceholderExpander.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmPolicies.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmProcessOutput.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmProcessTools.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmProjectCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmProperty.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmPropertyDefinition.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmPropertyMap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmQtAutoGen.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmQtAutoGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmQtAutoGenGlobalInitializer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmQtAutoGenInitializer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmQtAutoMocUic.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmQtAutoRcc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmQTWrapCPPCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmQTWrapUICommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmRange.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmRemoveCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmRemoveDefinitionsCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmReturnCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmRST.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmRulePlaceholderExpander.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmRuntimeDependencyArchive.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmScanDepFormat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmScriptGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSearchPath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSeparateArgumentsCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSetCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSetDirectoryPropertiesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSetPropertyCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSetSourceFilesPropertiesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSetTargetPropertiesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSetTestsPropertiesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSiteNameCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSourceFile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSourceFileLocation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSourceFileLocationKind.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSourceGroup.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSourceGroupCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmStandardLevelResolver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmStandardLexer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmState.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmStateDirectory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmStatePrivate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmStateSnapshot.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmStateTypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmString.hxx">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmStringAlgorithms.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmStringCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmStringReplaceHelper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSubcommandTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSubdirCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSubdirDependsCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmSystemTools.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTarget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTargetCompileDefinitionsCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTargetCompileFeaturesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTargetCompileOptionsCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTargetDepend.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTargetExport.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTargetIncludeDirectoriesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTargetLinkDirectoriesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTargetLinkLibrariesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTargetLinkLibraryType.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTargetLinkOptionsCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTargetPrecompileHeadersCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTargetPropCommandBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTargetPropertyComputer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTargetSourcesCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTest.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTestGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTimestamp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTransformDepfile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTryCompileCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmTryRunCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmUnsetCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmUseMangledMesaCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmUtilitySourceCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmUtils.hxx">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmUuid.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmUVHandlePtr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmUVProcessChain.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmUVSignalHackRAII.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmUVStreambuf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmValue.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmVariableRequiresCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmVariableWatch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmVariableWatchCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmVersion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmVersionConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmVersionMacros.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmVisualStudio10TargetGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmVisualStudioGeneratorOptions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmVisualStudioSlnData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmVisualStudioSlnParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmVisualStudioWCEPlatformParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmVsProjectType.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmVSSetupHelper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmWhileCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmWindowsRegistry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmWorkerPool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmWorkingDirectory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmWriteFileCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmXCode21Object.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmXCodeObject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmXCodeScheme.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmXCOFF.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmXMLParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmXMLSafe.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmXMLWriter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cm_codecvt.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmAddCompileDefinitionsCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmAddCompileOptionsCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmAddCustomCommandCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmAddCustomTargetCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmAddDefinitionsCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmAddDependenciesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmAddExecutableCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmAddLibraryCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmAddLinkOptionsCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmAddSubDirectoryCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmAddTestCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmAffinity.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmake.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmArchiveWrite.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmArgumentParser.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmAuxSourceDirectoryCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBase32.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBinUtilsLinker.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBinUtilsLinuxELFGetRuntimeDependenciesTool.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBinUtilsLinuxELFLinker.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBinUtilsLinuxELFObjdumpGetRuntimeDependenciesTool.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBinUtilsMacOSMachOGetRuntimeDependenciesTool.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBinUtilsMacOSMachOLinker.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBinUtilsMacOSMachOOToolGetRuntimeDependenciesTool.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBinUtilsWindowsPEDumpbinGetRuntimeDependenciesTool.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBinUtilsWindowsPEGetRuntimeDependenciesTool.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBinUtilsWindowsPELinker.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBinUtilsWindowsPEObjdumpGetRuntimeDependenciesTool.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBlockCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBreakCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBuildCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmBuildNameCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCacheManager.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCallVisualStudioMacro.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCLocaleEnvironmentScope.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCMakeHostSystemInformationCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCMakeLanguageCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCMakeMinimumRequired.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCMakePath.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCMakePathCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCMakePolicyCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCMakePresetsGraph.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCMakePresetsGraphReadJSON.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCMakePresetsGraphReadJSONBuildPresets.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCMakePresetsGraphReadJSONConfigurePresets.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCMakePresetsGraphReadJSONPackagePresets.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCMakePresetsGraphReadJSONTestPresets.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCMakePresetsGraphReadJSONWorkflowPresets.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCommandArgumentParserHelper.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCommands.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCommonTargetGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmComputeComponentGraph.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmComputeLinkDepends.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmComputeLinkInformation.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmComputeTargetDepends.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmConditionEvaluator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmConfigureFileCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmConfigureLog.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmConsoleBuf.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmContinueCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCoreTryCompile.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCPackPropertiesGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCreateTestSourceList.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCurl.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCustomCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCustomCommandGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCustomCommandLines.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCxxModuleMapper.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDebuggerAdapter.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDebuggerBreakpointManager.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDebuggerExceptionManager.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDebuggerPipeConnection.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDebuggerProtocol.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDebuggerSourceBreakpoint.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDebuggerStackFrame.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDebuggerThread.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDebuggerThreadManager.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDebuggerVariables.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDebuggerVariablesHelper.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDebuggerVariablesManager.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDefinePropertyCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDefinitions.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDepends.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDependsC.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDependsCompiler.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDependsFortran.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDependsJava.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDependsJavaParserHelper.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDocumentation.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDocumentationFormatter.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDuration.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDynamicLoader.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmDyndepCollation.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmELF.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmEnableLanguageCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmEnableTestingCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmEvaluatedTargetProperty.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExecProgramCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExecuteProcessCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExpandedCommandArgument.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExperimental.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExportBuildAndroidMKGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExportBuildFileGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExportCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExportFileGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExportInstallAndroidMKGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExportInstallFileGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExportLibraryDependenciesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExportSet.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExportTryCompileFileGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExprParserHelper.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExternalMakefileProjectGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExtraCodeBlocksGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExtraCodeLiteGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExtraEclipseCDT4Generator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExtraKateGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmExtraSublimeTextGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileAPI.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileAPICache.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileAPICMakeFiles.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileAPICodemodel.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileAPICommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileAPIConfigureLog.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileAPIToolchains.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileCopier.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileInstaller.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileLock.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileLockPool.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileLockResult.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFilePathChecksum.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileSet.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileTime.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileTimeCache.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFileTimes.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFindBase.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFindCommon.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFindFileCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFindLibraryCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFindPackageCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFindPathCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFindProgramCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFLTKWrapUICommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmForEachCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFortranParserImpl.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFSPermissions.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFunctionBlocker.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmFunctionCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGccDepfileLexerHelper.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGccDepfileReader.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGeneratedFileStream.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGeneratorExpression.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGeneratorExpressionContext.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGeneratorExpressionDAGChecker.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGeneratorExpressionEvaluationFile.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGeneratorExpressionEvaluator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGeneratorExpressionLexer.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGeneratorExpressionNode.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGeneratorExpressionParser.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGeneratorTarget.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGetCMakePropertyCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGetDirectoryPropertyCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGetFilenameComponentCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGetPipes.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGetPropertyCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGetSourceFilePropertyCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGetTargetPropertyCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGetTestPropertyCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGhsMultiGpj.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGhsMultiTargetGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalBorlandMakefileGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalCommonGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalGhsMultiGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalJOMMakefileGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalMinGWMakefileGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalMSYSMakefileGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalNinjaGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalNMakeMakefileGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalUnixMakefileGenerator3.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalVisualStudio7Generator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalVisualStudio8Generator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalVisualStudio9Generator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalVisualStudio10Generator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalVisualStudio11Generator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalVisualStudio12Generator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalVisualStudio14Generator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalVisualStudio71Generator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalVisualStudioGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalVisualStudioVersionedGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobalWatcomWMakeGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGlobVerificationManager.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmGraphVizWriter.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmHexFileConverter.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmIDEOptions.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmIfCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmIncludeCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmIncludeDirectoryCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmIncludeExternalMSProjectCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmIncludeGuardCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmIncludeRegularExpressionCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallCommandArguments.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallCxxModuleBmiGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallDirectoryGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstalledFile.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallExportGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallFilesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallFileSetGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallFilesGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallGetRuntimeDependenciesGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallImportedRuntimeArtifactsGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallProgramsCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallRuntimeDependencySet.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallRuntimeDependencySetGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallScriptGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallSubdirectoryGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallTargetGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmInstallTargetsCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmJSONState.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLDConfigLDConfigTool.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLDConfigTool.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLinkDirectoriesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLinkItem.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLinkItemGraphVisitor.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLinkLibrariesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLinkLineComputer.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLinkLineDeviceComputer.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmList.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmListCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmListFileCache.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLoadCacheCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLoadCommandCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLocalCommonGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLocalGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLocalGhsMultiGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLocalNinjaGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLocalUnixMakefileGenerator3.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLocalVisualStudio7Generator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLocalVisualStudio10Generator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmLocalVisualStudioGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmMacroCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmMakeDirectoryCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmMakefile.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmMakefileExecutableTargetGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmMakefileLibraryTargetGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmMakefileProfilingData.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmMakefileTargetGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmMakefileUtilityTargetGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmMarkAsAdvancedCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmMathCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmMessageCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmMessenger.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmMSVC60LinkLineComputer.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmNewLineStyle.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmNinjaLinkLineComputer.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmNinjaLinkLineDeviceComputer.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmNinjaNormalTargetGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmNinjaTargetGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmNinjaUtilityTargetGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmOptionCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmOrderDirectories.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmOSXBundleGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmOutputConverter.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmOutputRequiredFilesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmParseArgumentsCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmPathLabel.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmPlaceholderExpander.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmPolicies.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmProcessOutput.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmProcessTools.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmProjectCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmPropertyDefinition.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmPropertyMap.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmQtAutoGen.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmQtAutoGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmQtAutoGenGlobalInitializer.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmQtAutoGenInitializer.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmQtAutoMocUic.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmQtAutoRcc.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmQTWrapCPPCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmQTWrapUICommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmRemoveCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmRemoveDefinitionsCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmReturnCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmRST.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmRulePlaceholderExpander.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmRuntimeDependencyArchive.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmScanDepFormat.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmScriptGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSearchPath.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSeparateArgumentsCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSetCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSetDirectoryPropertiesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSetPropertyCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSetSourceFilesPropertiesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSetTargetPropertiesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSetTestsPropertiesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSiteNameCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSourceFile.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSourceFileLocation.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSourceGroup.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSourceGroupCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmStandardLevelResolver.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmState.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmStateDirectory.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmStateSnapshot.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmString.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmStringAlgorithms.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmStringCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmStringReplaceHelper.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSubcommandTable.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSubdirCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSubdirDependsCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmSystemTools.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTarget.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTargetCompileDefinitionsCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTargetCompileFeaturesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTargetCompileOptionsCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTargetIncludeDirectoriesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTargetLinkDirectoriesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTargetLinkLibrariesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTargetLinkOptionsCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTargetPrecompileHeadersCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTargetPropCommandBase.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTargetPropertyComputer.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTargetSourcesCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTest.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTestGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTimestamp.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTransformDepfile.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTryCompileCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmTryRunCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmUnsetCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmUseMangledMesaCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmUtilitySourceCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmUuid.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmUVHandlePtr.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmUVProcessChain.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmValue.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmVariableRequiresCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmVariableWatch.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmVariableWatchCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmVersion.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmVisualStudio10TargetGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmVisualStudioGeneratorOptions.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmVisualStudioSlnData.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmVisualStudioSlnParser.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmVisualStudioWCEPlatformParser.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmVSSetupHelper.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmWhileCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmWindowsRegistry.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmWorkerPool.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmWorkingDirectory.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmWriteFileCommand.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmXMLParser.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmXMLSafe.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmXMLWriter.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bindexplib.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cm_utf8.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCryptoHash.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmcmd.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\cmConstStack.tcc">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>

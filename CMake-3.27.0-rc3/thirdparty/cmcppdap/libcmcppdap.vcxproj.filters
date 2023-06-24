@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\content_stream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsoncpp_json_serializer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\null_json_serializer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\protocol_events.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\protocol_requests.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\protocol_response.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\protocol_types.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\session.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\typeinfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\typeof.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{96A10001-ED0E-3521-985A-D2555170537F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

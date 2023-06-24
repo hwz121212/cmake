@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{9A40E542-6B2B-370C-BEE2-4072949097F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{96A10001-ED0E-3521-985A-D2555170537F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\json_reader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\json_value.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\json_writer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\json\allocator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\assertions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\forwards.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\json.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\json_features.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\json_tool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\reader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\value.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\version.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\writer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\json\json_valueiterator.inl">
+      <Filter>include</Filter>
+    </None>
+  </ItemGroup>
+</Project>

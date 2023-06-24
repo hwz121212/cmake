@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{9A40E542-6B2B-370C-BEE2-4072949097F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{96A10001-ED0E-3521-985A-D2555170537F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\IFW">
+      <UniqueIdentifier>{b1fc7c48-fe73-4850-8458-3109db332c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\WiX">
+      <UniqueIdentifier>{99d657c5-bb12-4bc6-a980-9e64adc1201e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\IFW">
+      <UniqueIdentifier>{590292ff-241e-484d-89e1-d55e5abf7452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\WiX">
+      <UniqueIdentifier>{4eb54f7a-3a25-46c4-b8bd-a5ac5eb1901c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\cmCPackArchiveGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackBundleGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackComponentGroup.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackConfigure.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackCygwinBinaryGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackCygwinSourceGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackDebGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackDragNDropGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackExternalGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackFreeBSDGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackGeneratorFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackInnoSetupGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackLog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackNSISGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackNuGetGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackPKGGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackProductBuildGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackRPMGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cmCPackSTGZGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IFW\cmCPackIFWCommon.h">
+      <Filter>include\IFW</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IFW\cmCPackIFWGenerator.h">
+      <Filter>include\IFW</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IFW\cmCPackIFWInstaller.h">
+      <Filter>include\IFW</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IFW\cmCPackIFWPackage.h">
+      <Filter>include\IFW</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IFW\cmCPackIFWRepository.h">
+      <Filter>include\IFW</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WiX\cmCMakeToWixPath.h">
+      <Filter>include\WiX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WiX\cmCPackWIXGenerator.h">
+      <Filter>include\WiX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WiX\cmWIXAccessControlList.h">
+      <Filter>include\WiX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WiX\cmWIXDirectoriesSourceWriter.h">
+      <Filter>include\WiX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WiX\cmWIXFeaturesSourceWriter.h">
+      <Filter>include\WiX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WiX\cmWIXFilesSourceWriter.h">
+      <Filter>include\WiX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WiX\cmWIXPatch.h">
+      <Filter>include\WiX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WiX\cmWIXPatchParser.h">
+      <Filter>include\WiX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WiX\cmWIXRichTextFormatWriter.h">
+      <Filter>include\WiX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WiX\cmWIXShortcut.h">
+      <Filter>include\WiX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WiX\cmWIXSourceWriter.h">
+      <Filter>include\WiX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cmCPackArchiveGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCPackComponentGroup.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCPackDebGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCPackExternalGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCPackGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCPackGeneratorFactory.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCPackInnoSetupGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCPackLog.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCPackNSISGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCPackNuGetGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCPackPKGGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCPackProductBuildGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCPackRPMGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmCPackSTGZGenerator.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IFW\cmCPackIFWCommon.cxx">
+      <Filter>src\IFW</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IFW\cmCPackIFWGenerator.cxx">
+      <Filter>src\IFW</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IFW\cmCPackIFWInstaller.cxx">
+      <Filter>src\IFW</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IFW\cmCPackIFWPackage.cxx">
+      <Filter>src\IFW</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IFW\cmCPackIFWRepository.cxx">
+      <Filter>src\IFW</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WiX\cmCMakeToWixPath.cxx">
+      <Filter>src\WiX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WiX\cmCPackWIXGenerator.cxx">
+      <Filter>src\WiX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WiX\cmWIXAccessControlList.cxx">
+      <Filter>src\WiX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WiX\cmWIXDirectoriesSourceWriter.cxx">
+      <Filter>src\WiX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WiX\cmWIXFeaturesSourceWriter.cxx">
+      <Filter>src\WiX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WiX\cmWIXFilesSourceWriter.cxx">
+      <Filter>src\WiX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WiX\cmWIXPatch.cxx">
+      <Filter>src\WiX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WiX\cmWIXPatchParser.cxx">
+      <Filter>src\WiX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WiX\cmWIXRichTextFormatWriter.cxx">
+      <Filter>src\WiX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WiX\cmWIXShortcut.cxx">
+      <Filter>src\WiX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WiX\cmWIXSourceWriter.cxx">
+      <Filter>src\WiX</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

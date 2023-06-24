@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{84B7E479-228E-4BAD-B305-3B64CC9C9AC4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libctest</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include;$(SolutionDir)thirdparty;$(SolutionDir)thirdparty\kwsys\include;$(SolutionDir)thirdparty\std;$(SolutionDir)thirdparty\CMake-3.27.0-rc3;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CMake\include</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CURL_STATICLIB;LIBARCHIVE_STATIC</PreprocessorDefinitions>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include;$(SolutionDir)thirdparty;$(SolutionDir)thirdparty\kwsys\include;$(SolutionDir)thirdparty\std;$(SolutionDir)thirdparty\CMake-3.27.0-rc3;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CMake\include</AdditionalIncludeDirectories>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CURL_STATICLIB;LIBARCHIVE_STATIC</PreprocessorDefinitions>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\cmCTest.h" />
+    <ClInclude Include="include\cmCTestBinPacker.h" />
+    <ClInclude Include="include\cmCTestBuildAndTestHandler.h" />
+    <ClInclude Include="include\cmCTestBuildCommand.h" />
+    <ClInclude Include="include\cmCTestBuildHandler.h" />
+    <ClInclude Include="include\cmCTestBZR.h" />
+    <ClInclude Include="include\cmCTestCommand.h" />
+    <ClInclude Include="include\cmCTestConfigureCommand.h" />
+    <ClInclude Include="include\cmCTestConfigureHandler.h" />
+    <ClInclude Include="include\cmCTestCoverageCommand.h" />
+    <ClInclude Include="include\cmCTestCoverageHandler.h" />
+    <ClInclude Include="include\cmCTestCurl.h" />
+    <ClInclude Include="include\cmCTestCVS.h" />
+    <ClInclude Include="include\cmCTestEmptyBinaryDirectoryCommand.h" />
+    <ClInclude Include="include\cmCTestGenericHandler.h" />
+    <ClInclude Include="include\cmCTestGIT.h" />
+    <ClInclude Include="include\cmCTestGlobalVC.h" />
+    <ClInclude Include="include\cmCTestHandlerCommand.h" />
+    <ClInclude Include="include\cmCTestHG.h" />
+    <ClInclude Include="include\cmCTestLaunch.h" />
+    <ClInclude Include="include\cmCTestLaunchReporter.h" />
+    <ClInclude Include="include\cmCTestMemCheckCommand.h" />
+    <ClInclude Include="include\cmCTestMemCheckHandler.h" />
+    <ClInclude Include="include\cmCTestMultiProcessHandler.h" />
+    <ClInclude Include="include\cmCTestP4.h" />
+    <ClInclude Include="include\cmCTestReadCustomFilesCommand.h" />
+    <ClInclude Include="include\cmCTestResourceAllocator.h" />
+    <ClInclude Include="include\cmCTestResourceGroupsLexer.h" />
+    <ClInclude Include="include\cmCTestResourceGroupsLexerHelper.h" />
+    <ClInclude Include="include\cmCTestResourceSpec.h" />
+    <ClInclude Include="include\cmCTestRunScriptCommand.h" />
+    <ClInclude Include="include\cmCTestRunTest.h" />
+    <ClInclude Include="include\cmCTestScriptHandler.h" />
+    <ClInclude Include="include\cmCTestSleepCommand.h" />
+    <ClInclude Include="include\cmCTestStartCommand.h" />
+    <ClInclude Include="include\cmCTestSubmitCommand.h" />
+    <ClInclude Include="include\cmCTestSubmitHandler.h" />
+    <ClInclude Include="include\cmCTestSVN.h" />
+    <ClInclude Include="include\cmCTestTestCommand.h" />
+    <ClInclude Include="include\cmCTestTestHandler.h" />
+    <ClInclude Include="include\cmCTestTestMeasurementXMLParser.h" />
+    <ClInclude Include="include\cmCTestTypes.h" />
+    <ClInclude Include="include\cmCTestUpdateCommand.h" />
+    <ClInclude Include="include\cmCTestUpdateHandler.h" />
+    <ClInclude Include="include\cmCTestUploadCommand.h" />
+    <ClInclude Include="include\cmCTestUploadHandler.h" />
+    <ClInclude Include="include\cmCTestVC.h" />
+    <ClInclude Include="include\cmParseBlanketJSCoverage.h" />
+    <ClInclude Include="include\cmParseCacheCoverage.h" />
+    <ClInclude Include="include\cmParseCoberturaCoverage.h" />
+    <ClInclude Include="include\cmParseDelphiCoverage.h" />
+    <ClInclude Include="include\cmParseGTMCoverage.h" />
+    <ClInclude Include="include\cmParseJacocoCoverage.h" />
+    <ClInclude Include="include\cmParseMumpsCoverage.h" />
+    <ClInclude Include="include\cmParsePHPCoverage.h" />
+    <ClInclude Include="include\cmProcess.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cmCTest.cxx" />
+    <ClCompile Include="src\cmCTestBinPacker.cxx" />
+    <ClCompile Include="src\cmCTestBuildAndTestHandler.cxx" />
+    <ClCompile Include="src\cmCTestBuildCommand.cxx" />
+    <ClCompile Include="src\cmCTestBuildHandler.cxx" />
+    <ClCompile Include="src\cmCTestBZR.cxx" />
+    <ClCompile Include="src\cmCTestConfigureCommand.cxx" />
+    <ClCompile Include="src\cmCTestConfigureHandler.cxx" />
+    <ClCompile Include="src\cmCTestCoverageCommand.cxx" />
+    <ClCompile Include="src\cmCTestCoverageHandler.cxx" />
+    <ClCompile Include="src\cmCTestCurl.cxx" />
+    <ClCompile Include="src\cmCTestCVS.cxx" />
+    <ClCompile Include="src\cmCTestEmptyBinaryDirectoryCommand.cxx" />
+    <ClCompile Include="src\cmCTestGenericHandler.cxx" />
+    <ClCompile Include="src\cmCTestGIT.cxx" />
+    <ClCompile Include="src\cmCTestGlobalVC.cxx" />
+    <ClCompile Include="src\cmCTestHandlerCommand.cxx" />
+    <ClCompile Include="src\cmCTestHG.cxx" />
+    <ClCompile Include="src\cmCTestLaunch.cxx" />
+    <ClCompile Include="src\cmCTestLaunchReporter.cxx" />
+    <ClCompile Include="src\cmCTestMemCheckCommand.cxx" />
+    <ClCompile Include="src\cmCTestMemCheckHandler.cxx" />
+    <ClCompile Include="src\cmCTestMultiProcessHandler.cxx" />
+    <ClCompile Include="src\cmCTestP4.cxx" />
+    <ClCompile Include="src\cmCTestReadCustomFilesCommand.cxx" />
+    <ClCompile Include="src\cmCTestResourceAllocator.cxx" />
+    <ClCompile Include="src\cmCTestResourceGroupsLexer.cxx" />
+    <ClCompile Include="src\cmCTestResourceGroupsLexerHelper.cxx" />
+    <ClCompile Include="src\cmCTestResourceSpec.cxx" />
+    <ClCompile Include="src\cmCTestRunScriptCommand.cxx" />
+    <ClCompile Include="src\cmCTestRunTest.cxx" />
+    <ClCompile Include="src\cmCTestScriptHandler.cxx" />
+    <ClCompile Include="src\cmCTestSleepCommand.cxx" />
+    <ClCompile Include="src\cmCTestStartCommand.cxx" />
+    <ClCompile Include="src\cmCTestSubmitCommand.cxx" />
+    <ClCompile Include="src\cmCTestSubmitHandler.cxx" />
+    <ClCompile Include="src\cmCTestSVN.cxx" />
+    <ClCompile Include="src\cmCTestTestCommand.cxx" />
+    <ClCompile Include="src\cmCTestTestHandler.cxx" />
+    <ClCompile Include="src\cmCTestTestMeasurementXMLParser.cxx" />
+    <ClCompile Include="src\cmCTestUpdateCommand.cxx" />
+    <ClCompile Include="src\cmCTestUpdateHandler.cxx" />
+    <ClCompile Include="src\cmCTestUploadCommand.cxx" />
+    <ClCompile Include="src\cmCTestUploadHandler.cxx" />
+    <ClCompile Include="src\cmCTestVC.cxx" />
+    <ClCompile Include="src\cmParseBlanketJSCoverage.cxx" />
+    <ClCompile Include="src\cmParseCacheCoverage.cxx" />
+    <ClCompile Include="src\cmParseCoberturaCoverage.cxx" />
+    <ClCompile Include="src\cmParseDelphiCoverage.cxx" />
+    <ClCompile Include="src\cmParseGTMCoverage.cxx" />
+    <ClCompile Include="src\cmParseJacocoCoverage.cxx" />
+    <ClCompile Include="src\cmParseMumpsCoverage.cxx" />
+    <ClCompile Include="src\cmParsePHPCoverage.cxx" />
+    <ClCompile Include="src\cmProcess.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\cmCTestResourceGroupsLexer.in.l" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

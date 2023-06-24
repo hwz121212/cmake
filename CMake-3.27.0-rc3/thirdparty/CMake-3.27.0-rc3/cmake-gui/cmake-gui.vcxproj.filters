@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{20490d92-dee8-4b0e-b040-998581d017a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{d732baed-addf-4ccd-8497-6f2f1d0b69c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{c87de607-b1a7-4541-b863-5dc89948b7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{ce5eb624-a860-4377-a839-015ef79ba072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="moc">
+      <UniqueIdentifier>{5beffec8-c7c5-4e09-bd18-e0aa0d2b1744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uic">
+      <UniqueIdentifier>{734b9139-5727-4f88-8de0-3381eec97937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rcc">
+      <UniqueIdentifier>{8c60e6ff-67ec-4ff9-a265-90ae87f464ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\AddCacheEntry.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="include\CMakeSetupDialog.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="include\Compilers.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="include\EnvironmentDialog.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="include\FirstConfigure.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QCMake.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QCMakeCacheView.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QCMakePresetComboBox.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QCMakePresetItemModel.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QCMakeWidgets.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="include\RegexExplorer.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="include\WarningMessagesDialog.h">
+      <Filter>include</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\QCMakePreset.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QCMakeSizeType.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="uic\ui_AddCacheEntry.h">
+      <Filter>uic</Filter>
+    </ClInclude>
+    <ClInclude Include="uic\ui_CMakeSetupDialog.h">
+      <Filter>uic</Filter>
+    </ClInclude>
+    <ClInclude Include="uic\ui_Compilers.h">
+      <Filter>uic</Filter>
+    </ClInclude>
+    <ClInclude Include="uic\ui_CrossCompiler.h">
+      <Filter>uic</Filter>
+    </ClInclude>
+    <ClInclude Include="uic\ui_EnvironmentDialog.h">
+      <Filter>uic</Filter>
+    </ClInclude>
+    <ClInclude Include="uic\ui_RegexExplorer.h">
+      <Filter>uic</Filter>
+    </ClInclude>
+    <ClInclude Include="uic\ui_WarningMessagesDialog.h">
+      <Filter>uic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="ui\AddCacheEntry.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="ui\CMakeSetupDialog.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="ui\Compilers.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="ui\CrossCompiler.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="ui\EnvironmentDialog.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="ui\RegexExplorer.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="ui\WarningMessagesDialog.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AddCacheEntry.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CMakeGUIExec.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CMakeSetup.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CMakeSetupDialog.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnvironmentDialog.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FirstConfigure.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QCMake.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QCMakeCacheView.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QCMakePreset.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QCMakePresetComboBox.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QCMakePresetItemModel.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QCMakeWidgets.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RegexExplorer.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WarningMessagesDialog.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_AddCacheEntry.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_CMakeSetupDialog.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_Compilers.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_EnvironmentDialog.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FirstConfigure.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QCMake.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QCMakeCacheView.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QCMakePresetComboBox.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QCMakePresetItemModel.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QCMakeWidgets.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_RegexExplorer.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_WarningMessagesDialog.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="rcc\qrc_CMakeSetup.cpp">
+      <Filter>rcc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CMakeSetup.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\CMakeSetup32.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\CMakeSetup64.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\CMakeSetup128.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\Delete16.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\Plus16.png">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="res\CMakeSetup.qrc">
+      <Filter>res</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\CMakeSetup.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

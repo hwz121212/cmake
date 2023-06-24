@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{74DB6747-F3EA-34F4-BC1E-D375CD467614}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libcmsys</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include;include\cmsys</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>
+      </LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;KWSYS_NAMESPACE=cmsys;KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_UTF8;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include;include\cmsys</AdditionalIncludeDirectories>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>
+      </LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;KWSYS_NAMESPACE=cmsys;KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_UTF8;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cmsys\ProcessWin32.c" />
+    <ClCompile Include="src\cmsys\Base64.c" />
+    <ClCompile Include="src\cmsys\EncodingC.c">
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\MD5.c" />
+    <ClCompile Include="src\cmsys\Terminal.c" />
+    <ClCompile Include="src\cmsys\System.c">
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_NAMESPACE=cmsys;KWSYS_C_HAS_PTRDIFF_T=1;KWSYS_C_HAS_SSIZE_T=0;KWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=0</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_NAMESPACE=cmsys;KWSYS_C_HAS_PTRDIFF_T=1;KWSYS_C_HAS_SSIZE_T=0;KWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=0</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="src\cmsys\String.c">
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_STRING_C;KWSYS_NAMESPACE=cmsys</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_STRING_C;KWSYS_NAMESPACE=cmsys</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="include\cmsys\Configure.h" />
+    <ClInclude Include="include\cmsys\kwsysPrivate.h" />
+    <ClInclude Include="include\cmsys\Process.h" />
+    <ClInclude Include="include\cmsys\Base64.h" />
+    <ClInclude Include="include\cmsys\Encoding.h" />
+    <ClInclude Include="include\cmsys\MD5.h" />
+    <ClInclude Include="include\cmsys\_String.h" />
+    <ClInclude Include="include\cmsys\Terminal.h" />
+    <ClInclude Include="include\cmsys\System.h" />
+    <ClCompile Include="src\cmsys\Directory.cxx" />
+    <ClInclude Include="include\cmsys\Directory.hxx" />
+    <ClCompile Include="src\cmsys\DynamicLoader.cxx">
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_SUPPORTS_SHARED_LIBS=1;KWSYS_NAMESPACE=cmsys</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_SUPPORTS_SHARED_LIBS=1;KWSYS_NAMESPACE=cmsys</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="include\cmsys\DynamicLoader.hxx" />
+    <ClCompile Include="src\cmsys\EncodingCXX.cxx">
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_UTF8;KWSYS_NAMESPACE=cmsys</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_UTF8;KWSYS_NAMESPACE=cmsys</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="include\cmsys\Encoding.hxx" />
+    <ClCompile Include="src\cmsys\Glob.cxx" />
+    <ClInclude Include="include\cmsys\Glob.hxx" />
+    <ClCompile Include="src\cmsys\RegularExpression.cxx" />
+    <ClInclude Include="include\cmsys\RegularExpression.hxx" />
+    <ClCompile Include="src\cmsys\SystemTools.cxx">
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_NAMESPACE=cmsys;KWSYS_CXX_HAS_SETENV=0;KWSYS_CXX_HAS_UNSETENV=0;KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H=1;KWSYS_CXX_HAS_UTIMES=0;KWSYS_CXX_HAS_UTIMENSAT=0;KWSYS_CXX_STAT_HAS_ST_MTIM=0;KWSYS_CXX_STAT_HAS_ST_MTIMESPEC=0</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_NAMESPACE=cmsys;KWSYS_CXX_HAS_SETENV=0;KWSYS_CXX_HAS_UNSETENV=0;KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H=1;KWSYS_CXX_HAS_UTIMES=0;KWSYS_CXX_HAS_UTIMENSAT=0;KWSYS_CXX_STAT_HAS_ST_MTIM=0;KWSYS_CXX_STAT_HAS_ST_MTIMESPEC=0</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="include\cmsys\SystemTools.hxx" />
+    <ClCompile Include="src\cmsys\CommandLineArguments.cxx" />
+    <ClInclude Include="include\cmsys\CommandLineArguments.hxx" />
+    <ClCompile Include="src\cmsys\FStream.cxx" />
+    <ClInclude Include="include\cmsys\FStream.hxx" />
+    <ClCompile Include="src\cmsys\SystemInformation.cxx">
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SIZEOF_VOID_P=8;KWSYS_SYS_HAS_PSAPI=1;KWSYS_NAMESPACE=cmsys</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SIZEOF_VOID_P=8;KWSYS_SYS_HAS_PSAPI=1;KWSYS_NAMESPACE=cmsys</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="include\cmsys\SystemInformation.hxx" />
+    <ClInclude Include="include\cmsys\ConsoleBuf.hxx" />
+    <ClCompile Include="src\cmsys\Status.cxx" />
+    <ClInclude Include="include\cmsys\Status.hxx" />
+    <ClInclude Include="include\cmsys\Configure.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

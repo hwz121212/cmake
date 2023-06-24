@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{b8e7e5eb-177a-4bef-b7c7-7bca44c82484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{d2c44c39-62a6-4a94-8b07-5288fa2ad77d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\bignum-dtoa.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bignum.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cached-powers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\diy-fp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\double-conversion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\double-to-string.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fast-dtoa.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fixed-dtoa.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ieee.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\string-to-double.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\strtod.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\bignum-dtoa.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bignum.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cached-powers.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\double-to-string.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fast-dtoa.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fixed-dtoa.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\string-to-double.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\strtod.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\AddCacheEntry.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\CMakeSetupDialog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\Compilers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\EnvironmentDialog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\FirstConfigure.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\QCMake.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\QCMakeCacheView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\QCMakePreset.h" />
+    <ClInclude Include="include\QCMakeSizeType.h" />
+    <ClInclude Include="uic\ui_AddCacheEntry.h" />
+    <ClInclude Include="uic\ui_CMakeSetupDialog.h" />
+    <ClInclude Include="uic\ui_Compilers.h" />
+    <ClInclude Include="uic\ui_CrossCompiler.h" />
+    <ClInclude Include="uic\ui_EnvironmentDialog.h" />
+    <ClInclude Include="uic\ui_RegexExplorer.h" />
+    <ClInclude Include="uic\ui_WarningMessagesDialog.h" />
+    <QtMoc Include="include\WarningMessagesDialog.h" />
+    <QtMoc Include="include\RegexExplorer.h" />
+    <QtMoc Include="include\QCMakeWidgets.h" />
+    <QtMoc Include="include\QCMakePresetItemModel.h" />
+    <QtMoc Include="include\QCMakePresetComboBox.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="ui\AddCacheEntry.ui" />
+    <QtUic Include="ui\CMakeSetupDialog.ui" />
+    <QtUic Include="ui\Compilers.ui" />
+    <QtUic Include="ui\CrossCompiler.ui" />
+    <QtUic Include="ui\EnvironmentDialog.ui" />
+    <QtUic Include="ui\RegexExplorer.ui" />
+    <QtUic Include="ui\WarningMessagesDialog.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="moc\moc_AddCacheEntry.cpp" />
+    <ClCompile Include="moc\moc_CMakeSetupDialog.cpp" />
+    <ClCompile Include="moc\moc_Compilers.cpp" />
+    <ClCompile Include="moc\moc_EnvironmentDialog.cpp" />
+    <ClCompile Include="moc\moc_FirstConfigure.cpp" />
+    <ClCompile Include="moc\moc_QCMake.cpp" />
+    <ClCompile Include="moc\moc_QCMakeCacheView.cpp" />
+    <ClCompile Include="moc\moc_QCMakePresetComboBox.cpp" />
+    <ClCompile Include="moc\moc_QCMakePresetItemModel.cpp" />
+    <ClCompile Include="moc\moc_QCMakeWidgets.cpp" />
+    <ClCompile Include="moc\moc_RegexExplorer.cpp" />
+    <ClCompile Include="moc\moc_WarningMessagesDialog.cpp" />
+    <ClCompile Include="rcc\qrc_CMakeSetup.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\AddCacheEntry.cxx" />
+    <ClCompile Include="src\CMakeGUIExec.cxx" />
+    <ClCompile Include="src\CMakeSetup.cxx" />
+    <ClCompile Include="src\CMakeSetupDialog.cxx" />
+    <ClCompile Include="src\EnvironmentDialog.cxx" />
+    <ClCompile Include="src\FirstConfigure.cxx" />
+    <ClCompile Include="src\QCMake.cxx" />
+    <ClCompile Include="src\QCMakeCacheView.cxx" />
+    <ClCompile Include="src\QCMakePreset.cxx" />
+    <ClCompile Include="src\QCMakePresetComboBox.cxx" />
+    <ClCompile Include="src\QCMakePresetItemModel.cxx" />
+    <ClCompile Include="src\QCMakeWidgets.cxx" />
+    <ClCompile Include="src\RegexExplorer.cxx" />
+    <ClCompile Include="src\WarningMessagesDialog.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CMakeSetup.ico" />
+    <Image Include="res\CMakeSetup128.png" />
+    <Image Include="res\CMakeSetup32.png" />
+    <Image Include="res\CMakeSetup64.png" />
+    <Image Include="res\Delete16.png" />
+    <Image Include="res\Plus16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="res\CMakeSetup.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\CMakeSetup.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>
+    <Keyword>QtVS_v301</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)</IntDir>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <QtInstall>msvc2017_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <QtInstall>msvc2017_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+  </PropertyGroup>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <AdditionalIncludeDirectories>include;$(SolutionDir)thirdparty;$(SolutionDir)thirdparty\std;$(SolutionDir)thirdparty\kwsys\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CMake\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CTest\include;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6\QtWidgets;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6\QtWidgets\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6\QtGui\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6\QtCore\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>LIBARCHIVE_STATIC;LZMA_API_STATIC;QT_SHARED</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcmarchive.lib;libcmbzip2.lib;libcmcppdap.lib;libcmcurl.lib;libcmexpat.lib;libcmjsoncpp.lib;libcmlzma.lib;libcmnghttp2.lib;libcmrhash.lib;libcmstd.lib;libcmsys.lib;libcmuv.lib;libcmzlib.lib;libcmzstd.lib;libcmake.lib;libcpack.lib;libctest.lib;libLexerParser.lib;libzlib.lib;libpng.lib;libpcre2.lib;libdouble-conversion.lib;libharfbuzz-ng.lib;libharfbuzz_qt.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Advapi32.lib;Crypt32.lib;Ws2_32.lib;Shell32.lib;Dbghelp.lib;Kernel32.lib;Psapi.lib;Iphlpapi.lib;Userenv.lib;User32.lib;Version.lib;UxTheme.lib;Dwmapi.lib;Gdi32.lib;winmm.lib</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <QtMocDir>moc</QtMocDir>
+      <DynamicSource>false</DynamicSource>
+    </QtMoc>
+    <QtRcc>
+      <QtRccDir>rcc</QtRccDir>
+    </QtRcc>
+    <QtUic>
+      <QtUicDir>uic</QtUicDir>
+    </QtUic>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <AdditionalIncludeDirectories>include;$(SolutionDir)thirdparty;$(SolutionDir)thirdparty\std;$(SolutionDir)thirdparty\kwsys\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CMake\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CTest\include;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6\QtWidgets;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6\QtWidgets\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6\QtGui\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6\QtCore\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>LIBARCHIVE_STATIC;LZMA_API_STATIC;QT_SHARED</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcmarchive.lib;libcmbzip2.lib;libcmcppdap.lib;libcmcurl.lib;libcmexpat.lib;libcmjsoncpp.lib;libcmlzma.lib;libcmnghttp2.lib;libcmrhash.lib;libcmstd.lib;libcmsys.lib;libcmuv.lib;libcmzlib.lib;libcmzstd.lib;libcmake.lib;libcpack.lib;libctest.lib;libLexerParser.lib;libzlib.lib;libpng.lib;libpcre2.lib;libdouble-conversion.lib;libharfbuzz-ng.lib;libharfbuzz_qt.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Advapi32.lib;Crypt32.lib;Ws2_32.lib;Shell32.lib;Dbghelp.lib;Kernel32.lib;Psapi.lib;Iphlpapi.lib;Userenv.lib;User32.lib;Version.lib;UxTheme.lib;Dwmapi.lib;Gdi32.lib;winmm.lib</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <QtMocDir>moc</QtMocDir>
+      <DynamicSource>false</DynamicSource>
+    </QtMoc>
+    <QtRcc>
+      <QtRccDir>rcc</QtRccDir>
+    </QtRcc>
+    <QtUic>
+      <QtUicDir>uic</QtUicDir>
+    </QtUic>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" MocOptions="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

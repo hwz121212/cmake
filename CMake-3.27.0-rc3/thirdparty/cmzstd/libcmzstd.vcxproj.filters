@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="lib\common\entropy_common.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\common\error_private.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\common\fse_decompress.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\common\pool.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\common\threading.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\common\xxhash.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\common\zstd_common.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\compress\fse_compress.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\compress\hist.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\compress\huf_compress.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\compress\zstd_compress_literals.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\compress\zstd_compress.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\compress\zstd_compress_sequences.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\compress\zstd_compress_superblock.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\compress\zstd_double_fast.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\compress\zstd_fast.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\compress\zstd_lazy.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\compress\zstd_ldm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\compress\zstdmt_compress.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\compress\zstd_opt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\decompress\huf_decompress.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\decompress\zstd_ddict.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\decompress\zstd_decompress_block.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\decompress\zstd_decompress.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\deprecated\zbuff_common.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\deprecated\zbuff_compress.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\deprecated\zbuff_decompress.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\dictBuilder\cover.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\dictBuilder\divsufsort.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\dictBuilder\fastcover.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\dictBuilder\zdict.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{96A10001-ED0E-3521-985A-D2555170537F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
