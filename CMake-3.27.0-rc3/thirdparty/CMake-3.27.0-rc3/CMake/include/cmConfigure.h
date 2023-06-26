@@ -31,6 +31,8 @@
 #define CMAKE_DATA_DIR "/share/cmake-3.27"
 #define CMAKE_DOC_DIR "/doc/cmake-3.27"
 
+#define  VS_SLN_INTDIR    R"($(SolutionDir)..\Temp\$(Platform)\$(ProjectName)\$(Configuration)\)"
+
 #define CM_FALLTHROUGH cmsys_FALLTHROUGH
 
 #if defined(_WIN32) && !defined(NOMINMAX)

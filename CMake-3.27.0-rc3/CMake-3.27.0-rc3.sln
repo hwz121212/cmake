@@ -92,6 +92,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_exe", "2_exe", "{6E1D7563-095C-4BCF-B9E7-BD84F15CBBF4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cmake", "thirdparty\CMake-3.27.0-rc3\CMakeCmd\cmakemain.vcxproj", "{CE42F691-9337-4956-833D-92F0046E113A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8D213AA1-7D45-44CE-9A04-86DE528BBEDA} = {8D213AA1-7D45-44CE-9A04-86DE528BBEDA}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpack", "thirdparty\CMake-3.27.0-rc3\CPackCmd\cpack.vcxproj", "{B4E645CF-1160-4F04-B042-DD3EB9A1DDB5}"
 EndProject

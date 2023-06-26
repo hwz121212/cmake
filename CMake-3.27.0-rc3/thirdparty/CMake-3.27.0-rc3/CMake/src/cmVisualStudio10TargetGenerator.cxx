@@ -3005,13 +3005,13 @@ void cmVisualStudio10TargetGenerator::WritePathAndIncrementalLinkOptions(
     if (ttype >= cmStateEnums::UTILITY) 
 	{
       //e1.WritePlatformConfigTag("IntDir", cond, R"($(Platform)\$(Configuration)\$(ProjectName)\)");
-	  e1.WritePlatformConfigTag("IntDir", cond, R"($(SolutionDir)..\Temp\$(Platform)\$(ProjectName)\$(Configuration)\)");	  
+	  e1.WritePlatformConfigTag("IntDir", cond, VS_SLN_INTDIR);
     } 
 	else 
 	{
      // std::string intermediateDir = cmStrCat(this->LocalGenerator->GetTargetDirectory(this->GeneratorTarget), '/', config, '/');
 
-	  std::string intermediateDir = R"($(SolutionDir)..\Temp\$(Platform)\$(ProjectName)\$(Configuration)\)";
+	  std::string intermediateDir = VS_SLN_INTDIR;
       std::string outDir;
       std::string targetNameFull;
       if (ttype == cmStateEnums::OBJECT_LIBRARY) {
