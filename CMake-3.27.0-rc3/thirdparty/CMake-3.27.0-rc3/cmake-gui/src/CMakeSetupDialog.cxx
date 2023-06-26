@@ -43,6 +43,9 @@
 #include "RegexExplorer.h"
 #include "WarningMessagesDialog.h"
 
+
+#pragma execution_character_set("utf-8") 
+
 void OpenReferenceManual(const QString& filename)
 {
   QString urlFormat("https://cmake.org/cmake/help/v%1.%2/");
@@ -991,13 +994,31 @@ void CMakeSetupDialog::doDeleteCache()
 
 void CMakeSetupDialog::doAbout()
 {
-  QString msg = tr(
+  QString msg = QString::fromUtf8(
     "CMake %1 (cmake.org).\n"
     "CMake suite maintained and supported by Kitware (kitware.com/cmake).\n"
     "Distributed under terms of the BSD 3-Clause License.\n"
     "\n"
     "CMake GUI maintained by csimsoft,\n"
     "built using Qt %2 (qt-project.org).\n"
+
+	  "\n\n"
+	  "姓名：韩文治\n"
+	  "性别：男\n"
+	  "生日：1986.11.12\n"
+	  "电话： +86 15901216901\n"
+	  "邮箱：702054083@qq.com\n"
+	  "微信：hanwenzhi15901216901\n"
+	  "擅长：C++软件开发、C++代码与工程重构\n"	
+	  "主页：https://github.com/hwz121212"
+	  "\n\n"
+	  "备注：\n"
+	  "1. CMake-3.27.0-rc3.tar.gz 是从 https ://github.com/Kitware/CMake/releases/tag/v3.27.0-rc3 下载而来的。下载时间【北京时间2023-06-24】\n"
+	  "2. CMake-3.27.0-rc3 目录下的代码是由 CMake-3.27.0-rc3.tar.gz 重构而来的，重构时间【北京时间2023-06-24】\n"
+	  "3. cmake-gui结合qt5.9.6的部分源代码，参考 https://github.com/hwz121212/qt" 
+	  "\n\n"
+
+
 #ifdef USE_LGPL
     "\n"
     "The Qt Toolkit is Copyright (C) The Qt Company Ltd.\n"
