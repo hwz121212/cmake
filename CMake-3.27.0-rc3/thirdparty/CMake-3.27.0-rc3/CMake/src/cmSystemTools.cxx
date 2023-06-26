@@ -2646,15 +2646,27 @@ void cmSystemTools::FindCMakeResources(const char* argv0)
   // - "<prefix><CMAKE_BIN_DIR>/cmake"
   // - "<prefix><CMAKE_DATA_DIR>"
   // - "<prefix><CMAKE_DOC_DIR>"
-  if (cmHasLiteralSuffix(exe_dir, CMAKE_BIN_DIR)) {
+  if (cmHasLiteralSuffix(exe_dir, CMAKE_BIN_DIR_Debug))
+  {
     std::string const prefix =
-      exe_dir.substr(0, exe_dir.size() - cmStrLen(CMAKE_BIN_DIR));
+      exe_dir.substr(0, exe_dir.size() - cmStrLen(CMAKE_BIN_DIR_Debug));
     cmSystemToolsCMakeRoot = cmStrCat(prefix, CMAKE_DATA_DIR);
     if (cmSystemTools::FileExists(
           cmStrCat(prefix, CMAKE_DOC_DIR "/html/index.html"))) {
       cmSystemToolsHTMLDoc = cmStrCat(prefix, CMAKE_DOC_DIR "/html");
     }
   }
+  else if (cmHasLiteralSuffix(exe_dir, CMAKE_BIN_DIR_Release))
+  {
+	  std::string const prefix =
+		  exe_dir.substr(0, exe_dir.size() - cmStrLen(CMAKE_BIN_DIR_Release));
+	  cmSystemToolsCMakeRoot = cmStrCat(prefix, CMAKE_DATA_DIR);
+	  if (cmSystemTools::FileExists(
+		  cmStrCat(prefix, CMAKE_DOC_DIR "/html/index.html"))) {
+		  cmSystemToolsHTMLDoc = cmStrCat(prefix, CMAKE_DOC_DIR "/html");
+	  }
+  }
+
   if (cmSystemToolsCMakeRoot.empty() ||
       !cmSystemTools::FileExists(
         cmStrCat(cmSystemToolsCMakeRoot, "/Modules/CMake.cmake"))) {

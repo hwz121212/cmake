@@ -25,7 +25,9 @@
 /* #undef CMake_USE_XCOFF_PARSER */
 #define CMAKE_USE_WMAKE
 /* #undef CMake_DEFAULT_RECURSION_LIMIT */
-#define CMAKE_BIN_DIR "/bin"
+#define CMAKE_BIN_DIR_Debug			"/Debug"
+#define CMAKE_BIN_DIR_Release		"/Release"
+
 #define CMAKE_DATA_DIR "/share/cmake-3.27"
 #define CMAKE_DOC_DIR "/doc/cmake-3.27"
 
