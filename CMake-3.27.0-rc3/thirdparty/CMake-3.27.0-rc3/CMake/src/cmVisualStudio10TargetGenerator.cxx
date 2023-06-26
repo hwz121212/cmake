@@ -2454,7 +2454,9 @@ void cmVisualStudio10TargetGenerator::WriteSource(Elem& e2,
   // conversion uses full paths when possible to allow deeper trees.
   // However, CUDA 8.0 msbuild rules fail on absolute paths so for CUDA
   // we must use relative paths.
-  bool forceRelative = sf->GetLanguage() == "CUDA";
+
+  //bool forceRelative = sf->GetLanguage() == "CUDA";  //2023_06_26 º«ÎÄÖÎ ×¢ÊÍ
+  bool forceRelative = true;
   std::string sourceFile = this->ConvertPath(sf->GetFullPath(), forceRelative);
   ConvertToWindowsSlash(sourceFile);
   e2.Attribute("Include", sourceFile);
