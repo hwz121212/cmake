@@ -164,15 +164,15 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <AdditionalIncludeDirectories>include;$(SolutionDir)thirdparty;$(SolutionDir)thirdparty\std;$(SolutionDir)thirdparty\kwsys\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CMake\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CTest\include;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6\QtWidgets;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6\QtWidgets\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6\QtGui\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6\QtCore\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>LIBARCHIVE_STATIC;LZMA_API_STATIC;QT_SHARED</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_WINDOWS;LIBARCHIVE_STATIC;LZMA_API_STATIC;QT_SHARED</PreprocessorDefinitions>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\;</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libcmarchive.lib;libcmbzip2.lib;libcmcppdap.lib;libcmcurl.lib;libcmexpat.lib;libcmjsoncpp.lib;libcmlzma.lib;libcmnghttp2.lib;libcmrhash.lib;libcmstd.lib;libcmsys.lib;libcmuv.lib;libcmzlib.lib;libcmzstd.lib;libcmake.lib;libcpack.lib;libctest.lib;libLexerParser.lib;libzlib.lib;libpng.lib;libpcre2.lib;libdouble-conversion.lib;libharfbuzz-ng.lib;libharfbuzz_qt.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Advapi32.lib;Crypt32.lib;Ws2_32.lib;Shell32.lib;Dbghelp.lib;Kernel32.lib;Psapi.lib;Iphlpapi.lib;Userenv.lib;User32.lib;Version.lib;UxTheme.lib;Dwmapi.lib;Gdi32.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalDependencies>libwinmain.lib;libcmarchive.lib;libcmbzip2.lib;libcmcppdap.lib;libcmcurl.lib;libcmexpat.lib;libcmjsoncpp.lib;libcmlzma.lib;libcmnghttp2.lib;libcmrhash.lib;libcmstd.lib;libcmsys.lib;libcmuv.lib;libcmzlib.lib;libcmzstd.lib;libcmake.lib;libcpack.lib;libctest.lib;libLexerParser.lib;libzlib.lib;libpng.lib;libpcre2.lib;libdouble-conversion.lib;libharfbuzz-ng.lib;libharfbuzz_qt.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Advapi32.lib;Crypt32.lib;Ws2_32.lib;Shell32.lib;Dbghelp.lib;Kernel32.lib;Psapi.lib;Iphlpapi.lib;Userenv.lib;User32.lib;Version.lib;UxTheme.lib;Dwmapi.lib;Gdi32.lib;winmm.lib</AdditionalDependencies>
     </Link>
     <QtMoc>
       <QtMocDir>moc</QtMocDir>
@@ -192,15 +192,15 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <AdditionalIncludeDirectories>include;$(SolutionDir)thirdparty;$(SolutionDir)thirdparty\std;$(SolutionDir)thirdparty\kwsys\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CMake\include;$(SolutionDir)thirdparty\CMake-3.27.0-rc3\CTest\include;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6\QtWidgets;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6\QtWidgets\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6\QtGui\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6\QtCore\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>LIBARCHIVE_STATIC;LZMA_API_STATIC;QT_SHARED</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_WINDOWS;LIBARCHIVE_STATIC;LZMA_API_STATIC;QT_SHARED</PreprocessorDefinitions>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\;</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libcmarchive.lib;libcmbzip2.lib;libcmcppdap.lib;libcmcurl.lib;libcmexpat.lib;libcmjsoncpp.lib;libcmlzma.lib;libcmnghttp2.lib;libcmrhash.lib;libcmstd.lib;libcmsys.lib;libcmuv.lib;libcmzlib.lib;libcmzstd.lib;libcmake.lib;libcpack.lib;libctest.lib;libLexerParser.lib;libzlib.lib;libpng.lib;libpcre2.lib;libdouble-conversion.lib;libharfbuzz-ng.lib;libharfbuzz_qt.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Advapi32.lib;Crypt32.lib;Ws2_32.lib;Shell32.lib;Dbghelp.lib;Kernel32.lib;Psapi.lib;Iphlpapi.lib;Userenv.lib;User32.lib;Version.lib;UxTheme.lib;Dwmapi.lib;Gdi32.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalDependencies>libwinmain.lib;libcmarchive.lib;libcmbzip2.lib;libcmcppdap.lib;libcmcurl.lib;libcmexpat.lib;libcmjsoncpp.lib;libcmlzma.lib;libcmnghttp2.lib;libcmrhash.lib;libcmstd.lib;libcmsys.lib;libcmuv.lib;libcmzlib.lib;libcmzstd.lib;libcmake.lib;libcpack.lib;libctest.lib;libLexerParser.lib;libzlib.lib;libpng.lib;libpcre2.lib;libdouble-conversion.lib;libharfbuzz-ng.lib;libharfbuzz_qt.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Advapi32.lib;Crypt32.lib;Ws2_32.lib;Shell32.lib;Dbghelp.lib;Kernel32.lib;Psapi.lib;Iphlpapi.lib;Userenv.lib;User32.lib;Version.lib;UxTheme.lib;Dwmapi.lib;Gdi32.lib;winmm.lib</AdditionalDependencies>
     </Link>
     <QtMoc>
       <QtMocDir>moc</QtMocDir>
