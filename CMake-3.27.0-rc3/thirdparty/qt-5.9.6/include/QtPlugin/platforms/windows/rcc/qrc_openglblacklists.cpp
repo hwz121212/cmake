@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 static const unsigned char qt_resource_data[] = {
-  // D:/cmake/CMake-3.27.0-rc3/thirdparty/qt-5.9.6/include/QtPlugin/platforms/windows/openglblacklists/default.json
+  // F:/hanwenzhi_github_2023/cmake/CMake-3.27.0-rc3/thirdparty/qt-5.9.6/include/QtPlugin/platforms/windows/openglblacklists/default.json
   0x0,0x0,0x3,0x9a,
   0x0,
   0x0,0x11,0x27,0x78,0x9c,0xcd,0x57,0x5b,0x6f,0xd3,0x30,0x14,0x7e,0x47,0xe2,0x3f,
